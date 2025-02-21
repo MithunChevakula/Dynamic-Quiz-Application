@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="panel">
+        <div id="start-panel">
+            <button onclick="fetchQuestions()" id="start-btn">START</button>
+        </div>
+        <div class="question" id="ques" style="display: none;"></div>
+        <div class="options" id="opt" style="display: none;"></div>
+        <div class="button-container" id="btn-container">
+            <button onclick="checkAns()" id="btn" style="display: none;">SUBMIT</button>
+        </div>
+        <div id="score"></div>
+        <script src="quiz.js"></script>
+    </div>
+</body>
+</html>
